@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "817030315555",
+    "project_id": "composebookreader",
+    "storage_bucket": "composebookreader.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:817030315555:android:c5883ddcc6f8bf7ee5bb96",
+        "android_client_info": {
+          "package_name": "sk.sandeep.bookreadercompose"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "817030315555-l2q60kjiik1raikgus2ak06fs9a0r3cl.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC2ElMXKRiHp49j-5VL0rCYe0_bd3mqH7Q"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "817030315555-l2q60kjiik1raikgus2ak06fs9a0r3cl.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
