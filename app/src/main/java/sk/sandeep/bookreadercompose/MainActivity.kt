@@ -10,6 +10,7 @@ import androidx.compose.material.MaterialTheme
 import androidx.compose.material.Surface
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Alignment
+import androidx.compose.ui.ExperimentalComposeUiApi
 import androidx.compose.ui.Modifier
 import dagger.hilt.android.AndroidEntryPoint
 import sk.sandeep.bookreadercompose.navigation.ReaderNavigation
@@ -17,6 +18,7 @@ import sk.sandeep.bookreadercompose.ui.theme.BookReaderComposeTheme
 
 @AndroidEntryPoint
 class MainActivity : ComponentActivity() {
+    @ExperimentalComposeUiApi
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContent {
@@ -27,6 +29,7 @@ class MainActivity : ComponentActivity() {
     }
 }
 
+@ExperimentalComposeUiApi
 @Composable
 fun ReaderApp() {
     Surface(

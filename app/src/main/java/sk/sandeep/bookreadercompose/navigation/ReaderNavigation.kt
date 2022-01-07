@@ -1,6 +1,7 @@
 package sk.sandeep.bookreadercompose.navigation
 
 import androidx.compose.runtime.Composable
+import androidx.compose.ui.ExperimentalComposeUiApi
 import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
 import androidx.navigation.compose.rememberNavController
@@ -12,6 +13,7 @@ import sk.sandeep.bookreadercompose.screens.splash.ReaderSplashScreen
 import sk.sandeep.bookreadercompose.screens.stats.ReaderStatsScreen
 import sk.sandeep.bookreadercompose.screens.update.BookUpdateScreen
 
+@ExperimentalComposeUiApi
 @Composable
 fun ReaderNavigation() {
 
